@@ -1,0 +1,25 @@
+{
+  "name": "git-to-discord",
+  "version": "1.0.0",
+  "description": "Process incoming GitHub webhooks and send the data to Discord through their incoming webhooks.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "github",
+    "webhooks"
+  ],
+  "author": "Dean Sheather <dean@deansheather.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "helmet": "^2.3.0",
+    "jsonfile": "^2.4.0",
+    "mustache": "^2.2.1",
+    "node-uuid": "^1.4.7",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1"
+  }
+}
